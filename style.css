@@ -28,11 +28,19 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
+    margin: 0 auto;
     width: 100%;
+    max-width: 1366px;
     height: 7vh;
+}
+
+header nav a {
+    margin: 0 1vw;
+    font-weight: 700;
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
@@ -44,4 +52,31 @@ a {
     text-decoration: none;
     font-family: var(--default-font);
     color: var(--dark-text-color);
+}
+
+
+/* General Styles */
+
+header .profile {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .profile .information span {
+    display: block;
+}
+
+header .profile .information span.name {
+    font-weight: bolder;
+}
+
+/* test */
+
+.icon {
+    margin-right: 8px;
+    width: 5vh;
+    height: 5vh;
+    background-color: var(--dark-text-color);
+    border-radius: 50%;
 }
