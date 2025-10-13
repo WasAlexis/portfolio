@@ -1,0 +1,47 @@
+/* Global styles for website */
+
+:root {
+    /*ToDo: use color-scheme */
+
+
+    /* Variables */
+    --darker-color: #201f1d;
+    --dark-text-color: #f8f7f4;
+    --default-font: system-ui;
+}
+
+/* resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* adjust default styles elements */ 
+
+body {
+    width: 100%;
+    min-height: 10000px;
+    background-color: var(--darker-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    color: var(--dark-text-color);
+    font-family: var(--default-font);
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--default-font);
+    color: var(--dark-text-color);
+}
