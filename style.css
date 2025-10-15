@@ -1,5 +1,7 @@
 /* Global styles for website */
 
+@import url(./static.css);
+
 :root {
     /*ToDo: use color-scheme */
 
@@ -10,52 +12,10 @@
     --default-font: system-ui;
 }
 
-/* resets */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* adjust default styles elements */ 
-
-body {
-    width: 100%;
-    min-height: 10000px;
-    background-color: var(--darker-color);
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1366px;
-    height: 7vh;
-}
-
 header nav a {
     margin: 0 1vw;
     font-weight: 700;
 }
-
-h1, h2, h3, h4, h5, h6, p, span {
-    color: var(--dark-text-color);
-    font-family: var(--default-font);
-}
-
-a {
-    text-decoration: none;
-    font-family: var(--default-font);
-    color: var(--dark-text-color);
-}
-
-
-/* General Styles */
 
 header .profile {
     display: flex;
