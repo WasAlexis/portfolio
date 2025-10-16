@@ -40,3 +40,21 @@ header .profile .information span.name {
     background-color: var(--dark-text-color);
     border-radius: 50%;
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    height: 50vh;
+}
+
+.hero h1 {
+    font-size: calc(2vw + 2vh);
+}
+
+.hero span {
+    font-size: calc(1vw + 1vh);
+}
