@@ -325,38 +325,3 @@ footer .footer-container span {
     text-align: center;
     color: var(--gray-color);
 }
-
-/* ToDo: move this to a separate file */
-@media screen and (max-width: 600px) {
-    header .header-container nav {
-        display: none;
-    }
-
-    .slide .side {
-        width: 100% !important;
-    }
-
-    .action-buttons {
-        flex-direction: column;
-        height: 20vh;
-    }
-
-    .gallery {
-        grid-template-columns: 1fr !important;
-    }
-
-    section#skills .container .gallery .card {
-        grid-column: span 1;
-    }
-
-    .gallery .item .photo {
-        height: 30%;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    footer .footer-container {
-        flex-direction: column;
-        gap: 24px;
-    }
-}

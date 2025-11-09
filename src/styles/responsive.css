@@ -1,0 +1,50 @@
+/* responsive styles */
+
+@media screen and (max-width: 900px) {
+    header .header-container nav {
+        display: none;
+    }
+
+    section#about-me .slide .side {
+        width: 100%;
+    }
+
+    section#about-me .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    section#projects .container .gallery .item .photo {
+        height: 30%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    section#projects .container .gallery .item .details {
+        height: 70%;
+    }
+
+    section#contact .container .gallery, section#skills .container .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .action-buttons {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    section#skills .container .gallery, section#projects .container .gallery, section#contact .container .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    section#skills .gallery .card.long {
+        grid-column: span 1;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
