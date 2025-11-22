@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('./main.css');
+@import url('./animations.css');
 
 /* Override default styles */
 
@@ -15,6 +16,7 @@
     --white-color: #fafafa;
     --black-color: #0a0a0a;
     --blue-color: #0076DF;
+    --gray-color: #8a8a8a;
 }
 
 body {
@@ -34,4 +36,14 @@ h1, h2, h3, h4, h5, h6, span, p, a {
 
 a {
     text-decoration: none;
+}
+
+.like-button {
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: calc(0.5vw + 1vh);
+}
+
+.like-button.fill {
+    background-color: var(--blue-color);
 }
