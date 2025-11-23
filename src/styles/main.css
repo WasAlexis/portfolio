@@ -50,10 +50,10 @@ header .header-container a.download-cv {
 
 section {
     width: 100%;
-    height: 100vh;
 }
 
 section.hero {
+    height: 100vh;
     background-color: black;
 }
 
@@ -91,7 +91,7 @@ section.hero .gradient > .container {
     height: 8px;
     background-color: rgba(74, 222, 128, 0.8);
     border-radius: 50%;
-    animation: pulse 4s ease-in-out infinite;
+    animation: pulse 2s ease-in-out infinite alternate;
 }
 
 .container h1 {
@@ -107,7 +107,7 @@ section.hero .gradient > .container {
     -webkit-text-fill-color: transparent;
 }
 
-.container p {
+.gradient .container p {
     margin: calc(1vw + 3vh) 0;
     text-align: center;
     font-size: calc(0.1vw + 1.75vh);
@@ -129,10 +129,69 @@ section.hero .gradient > .container {
     font-weight: 500;
 }
 
+/* About me section */
+
+section#about-me .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section#about-me .container > h3 {
+    margin-bottom: 16px;
+    color: var(--blue-color);
+    font-weight: 600;
+}
+
+section#about-me .container .slide .side h2 {
+    margin-bottom: 24px;
+    font-size: calc(1vw + 4vh);
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+section#about-me .container .slide .side p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--gray-color);
+}
+
+.gallery .card span {
+    display: block;
+}
+
+.gallery .card .value {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: calc(1vw + 4vh);
+}
+
+.gallery .card .key {
+    font-weight: 400;
+    font-size: calc(2vh - 0.3vw);
+    color: var(--gray-color);
+}
+
 
 /* ToDo: move this to a separate file */
 @media screen and (max-width: 600px) {
     header .header-container nav {
         display: none;
+    }
+
+    .slide .side {
+        width: 100% !important;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr !important;
     }
 }
