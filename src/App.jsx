@@ -60,6 +60,44 @@ function App() {
           </div>
         </div>
       </section>
+      <section id='skills' className='template'>
+        <div className='container'>
+          <h3>Habilidades</h3>
+          <h2>Tecnologias que domino</h2>
+          <div className='gallery'>
+            <div className='card blue'>
+              <div className='icon frontend'></div>
+              <h4>Frontend</h4>
+              <p>React, Media Query, WebRTC</p>
+            </div>
+            <div className='card dark'>
+              <div className='icon backend'></div>
+              <h4>Backend</h4>
+              <p>Python, Express.js, Javascript, Flask</p>
+            </div>
+            <div className='card long'>
+              <div className='icon design'></div>
+              <h4>Diseño</h4>
+              <p>Figma, Responsive Design, Animaciones</p>
+            </div>
+            <div className='card long'>
+              <div className='icon practices'></div>
+              <h4>Buenas prácticas</h4>
+              <p>Metodologías ágiles, control de versiones, TDD</p>
+            </div>
+            <div className='card dark'>
+              <div className='icon database'></div>
+              <h4>Bases de datos</h4>
+              <p>SQL Server, PostgreSQL, Supabase</p>
+            </div>
+            <div className='card purple'>
+              <div className='icon devops'></div>
+              <h4>DevOps</h4>
+              <p>CI/CD, Docker, GitHub Actions, AWS, Linux</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     </>
   );

@@ -131,26 +131,6 @@ section.hero .gradient > .container {
 
 /* About me section */
 
-section#about-me .container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-}
-
-section#about-me .container > h3 {
-    margin-bottom: 16px;
-    color: var(--blue-color);
-    font-weight: 600;
-}
-
-section#about-me .container .slide .side h2 {
-    margin-bottom: 24px;
-    font-size: calc(1vw + 4vh);
-    font-weight: 600;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-}
-
 section#about-me .container .slide .side p {
     margin-bottom: 20px;
     font-size: 17px;
@@ -175,6 +155,67 @@ section#about-me .container .slide .side p {
     color: var(--gray-color);
 }
 
+/* Skills section */
+
+section#skills .container .gallery {
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+}
+
+section#skills .container .gallery .card {
+    min-height: 200px;
+}
+
+section#skills .container .gallery .card.dark {
+    background-color: var(--black-color);
+}
+
+section#skills .container .gallery .card.blue {
+    background-color: var(--blue-color);
+}
+
+section#skills .container .gallery .card.purple {
+    background-color: var(--purple-color);
+}
+
+.card .icon {
+    margin-bottom: 24px;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+}
+
+.card.dark .icon, .card.blue .icon, .card.purple .icon {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card.dark h4, .card.blue h4, .card.purple h4 {
+    color: var(--white-color);
+}
+
+.card p {
+    color: var(--gray-color);
+}
+
+.card.dark p, .card.blue p, .card.purple p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon.frontend { background-image: url('../assets/code.svg'); }
+
+.icon.backend { background-image: url('../assets/web.svg'); }
+
+.icon.design { background-image: url('../assets/palette.svg'); }
+
+.icon.practices { background-image: url('../assets/shield.svg'); }
+
+.icon.database { background-image: url('../assets/stack.svg'); }
+
+.icon.devops { background-image: url('../assets/lightning-charge.svg'); }
 
 /* ToDo: move this to a separate file */
 @media screen and (max-width: 600px) {
@@ -193,5 +234,9 @@ section#about-me .container .slide .side p {
 
     .gallery {
         grid-template-columns: 1fr !important;
+    }
+
+    section#skills .container .gallery .card {
+        grid-column: span 1;
     }
 }
