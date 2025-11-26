@@ -45,6 +45,14 @@ section.template {
     align-content: center;
 }
 
+section.template.dark {
+    background-color: var(--black-color);
+}
+
+section.template.dark h2, section.template.dark h3 {
+    color: var(--white-color);
+}
+
 section.template .container {
     margin: 0 auto;
     width: 100%;

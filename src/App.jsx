@@ -60,6 +60,24 @@ function App() {
           </div>
         </div>
       </section>
+      <section id='projects' className='template dark'>
+        <div className='container'>
+          <h3>Proyectos</h3>
+          <h2>Algunos de mis trabajos recientes</h2>
+          <div className='gallery'>
+            <div className='item'>
+              <div className='photo filecast'></div>
+              <div className='details'>
+                <span className='category'>Transferencia de archivos · WebRTC</span>
+                <span className='name'>Filecast</span>
+                <p>Aplicacion web basado en Apple Airdrop para transferencia de archivos 
+                  indepentientemente de la plataforma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id='skills' className='template'>
         <div className='container'>
           <h3>Habilidades</h3>
