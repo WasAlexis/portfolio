@@ -101,7 +101,7 @@ function App() {
             <div className='card long'>
               <div className='icon practices'></div>
               <h4>Buenas prácticas</h4>
-              <p>Metodologías ágiles, control de versiones, TDD</p>
+              <p>Metodologías ágiles, Control de versiones, Test Driven Development</p>
             </div>
             <div className='card dark'>
               <div className='icon database'></div>
