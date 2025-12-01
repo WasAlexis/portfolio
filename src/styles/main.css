@@ -11,7 +11,7 @@ header {
     backdrop-filter: blur(8px);
 }
 
-header .header-container {
+header .header-container, footer .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -269,6 +269,20 @@ section#skills .container .gallery .card.purple {
 
 .icon.devops { background-image: url('../assets/lightning-charge.svg'); }
 
+/* Footer styles */
+
+footer {
+    padding: 32px 24px;
+    width: 100%;
+    background-color: black;
+}
+
+footer .footer-container span {
+    font-size: 13px;
+    text-align: center;
+    color: var(--gray-color);
+}
+
 /* ToDo: move this to a separate file */
 @media screen and (max-width: 600px) {
     header .header-container nav {
@@ -296,5 +310,10 @@ section#skills .container .gallery .card.purple {
         height: 30%;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        gap: 24px;
     }
 }
