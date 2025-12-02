@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --white-color: #fafafa;
     --black-color: #0a0a0a;
@@ -22,7 +26,6 @@
 
 body {
     width: 100%;
-    height: 100dvh;
     background-color: var(--white-color);
 }
 
@@ -31,7 +34,7 @@ body {
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p, a {
+h1, h2, h3, h4, h5, h6, span, p, a:not(:has(div)) {
     font-family: "Inter", sans-serif;
     color: var(--black-color);
 }
@@ -46,7 +49,7 @@ section.template {
 }
 
 section.template.dark {
-    background-color: var(--black-color);
+    background-color: black;
 }
 
 section.template.dark h2, section.template.dark h3 {

@@ -269,11 +269,52 @@ section#skills .container .gallery .card.purple {
 
 .icon.devops { background-image: url('../assets/lightning-charge.svg'); }
 
+.icon.email { background-image: url('../assets/email.svg'); }
+
+.icon.github { background-image: url('../assets/github.svg'); }
+
+.icon.linkedin { background-image: url('../assets/linkedin.svg'); }
+
+.icon.instagram { background-image: url('../assets/instagram.svg'); }
+
+/* Contact section */
+
+section#contact .container .gallery {
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+}
+
+section#contact .container .gallery .card {
+    background-color: var(--black-color);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+section#contact .container .gallery .card h4 {
+    color: var(--white-color);
+}
+
+section#contact .container .gallery .card span {
+    margin-bottom: 8px;
+    color: var(--gray-color);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+section#contact .container .gallery .card p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+section#contact .container .gallery .card .icon {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 /* Footer styles */
 
 footer {
     padding: 32px 24px;
     width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
     background-color: black;
 }
 

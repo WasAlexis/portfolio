@@ -117,6 +117,38 @@ function App() {
           </div>
         </div>
       </section>
+      <section id='contact' className='template dark'>
+        <div className='container'>
+          <h3>Contacto</h3>
+          <h2>¿Tienes un proyecto en mente?</h2>
+          <div className='gallery'>
+            <a href='mailto:AlexisNoMain@icloud.com' target='_blank' className='card'>
+              <div className='icon email'></div>
+              <h4>Email</h4>
+              <span>AlexisNoMain@icloud.com</span>
+              <p>Contacto directo</p>
+            </a>
+            <a href='https://www.linkedin.com/in/alemlzc' target='_blank' className='card'>
+              <div className='icon linkedin'></div>
+              <h4>LinkedIn</h4>
+              <span>linkedin.com/in/alemlzc</span>
+              <p>Mi perfil profesional</p>
+            </a>
+            <a href='https://github.com/WasAlexis' target='_blank' className='card'>
+              <div className='icon github'></div>
+              <h4>GitHub</h4>
+              <span>github.com/WasAlexis</span>
+              <p>Mis proyectos Open-Source</p>
+            </a>
+            <a href='https://instagram.com/alemlzc' target='_blank' className='card'>
+              <div className='icon instagram'></div>
+              <h4>Instagram</h4>
+              <span>instagram.com/alemlzc</span>
+              <p>Un vistazo a mi vida</p>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <Footer />
     </>
