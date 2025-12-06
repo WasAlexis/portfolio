@@ -32,20 +32,19 @@ function App() {
             <div className='side'>
               <h2>Construyendo un futuro digital, un pixel a la vez.</h2>
               <p>
-                Soy un desarrollador <strong>Full Stack</strong> apasionado por crear interfaces que no solo funcionan perfectamente, 
-                sino que también deleitan a los usuarios. Mi enfoque combina tecnología de vanguardia con 
-                principios de diseño cuidadosamente considerados.
+                Soy un desarrollador <strong>Full Stack</strong> apasionado por crear herramientas que no solo sean funcionales, 
+                sino que tambien ofrezcan una experiencia de usuario excepcional. Mi enfoque se centra en el diseño UI/UX, 
+                asegurando que cada proyecto no solo cumpla con su propósito, sino que también sea intuitivo y agradable de usar.
               </p>
               <p>
-                Con experiencia en React, TypeScript, Node.js y diseño UI/UX, 
-                puedo llevar un producto desde la idea inicial hasta el lanzamiento, 
-                asegurando que cada detalle esté perfectamente ejecutado.
+                Tengo experiencia en una amplia gama de tecnologías, desde el desarrollo frontend con React y WebAPI, hasta el backend con Python y Express.js.
+                Además, me esfuerzo por seguir las mejores prácticas de desarrollo, como el control de versiones y el test-driven development, para garantizar la calidad y mantenibilidad de mis proyectos.
               </p>
             </div>
             <div className='side'>
               <div className='gallery'>
                 <div className='card'>
-                  <span className='value'>5+</span>
+                  <span className='value'>2+</span>
                   <span className='key'>Años de experiencia</span>
                 </div>
                 <div className='card'>
@@ -53,8 +52,8 @@ function App() {
                   <span className='key'>Proyectos participados</span>
                 </div>
                 <div className='card'>
-                  <span className='value'>3+</span>
-                  <span className='key'>Años en diseño</span>
+                  <span className='value'>4+</span>
+                  <span className='key'>Proyectos diseñados</span>
                 </div>
               </div>
             </div>
@@ -87,12 +86,12 @@ function App() {
             <div className='card blue'>
               <div className='icon frontend'></div>
               <h4>Frontend</h4>
-              <p>React, Media Query, WebRTC</p>
+              <p>React, Media Query, WebAPI</p>
             </div>
             <div className='card dark'>
               <div className='icon backend'></div>
               <h4>Backend</h4>
-              <p>Python, Express.js, Javascript, Flask</p>
+              <p>Python, Express.js, Javascript</p>
             </div>
             <div className='card long'>
               <div className='icon design'></div>
@@ -102,17 +101,17 @@ function App() {
             <div className='card long'>
               <div className='icon practices'></div>
               <h4>Buenas prácticas</h4>
-              <p>Metodologías ágiles, Control de versiones, Test Driven Development</p>
+              <p>Control de versiones, Test Driven Development</p>
             </div>
             <div className='card dark'>
               <div className='icon database'></div>
               <h4>Bases de datos</h4>
-              <p>SQL Server, PostgreSQL, Supabase</p>
+              <p>SQL Server, PostgreSQL</p>
             </div>
             <div className='card purple'>
               <div className='icon devops'></div>
               <h4>DevOps</h4>
-              <p>CI/CD, Docker, GitHub Actions, AWS, Linux</p>
+              <p>Docker, GitHub Actions, AWS, Linux</p>
             </div>
           </div>
         </div>
