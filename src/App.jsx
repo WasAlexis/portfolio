@@ -6,7 +6,7 @@ function App() {
     <>
     <Header />
     <main>
-      <section className='hero'>
+      <section id='home' className='hero'>
         <div className='gradient'>
           <div className='container'>
             <div className='status'>
@@ -19,8 +19,8 @@ function App() {
               Creo experiencias digitales extraordinarias que combinan tecnología con diseño.
             </p>
             <div className='action-buttons'>
-              <a href="./" className='like-button fill'>Ver proyectos</a>
-              <a href="./" className='like-button outline'>Contactar</a>
+              <a href="#projects" className='like-button fill'>Ver proyectos</a>
+              <a href="#contact" className='like-button outline'>Contactar</a>
             </div>
           </div>
         </div>
