@@ -284,6 +284,7 @@ section#contact .container .gallery {
 }
 
 section#contact .container .gallery .card {
+    min-height: 225px;
     background-color: var(--black-color);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -297,6 +298,7 @@ section#contact .container .gallery .card span {
     color: var(--gray-color);
     font-size: 15px;
     font-weight: 600;
+    word-break: break-all;
 }
 
 section#contact .container .gallery .card p {
