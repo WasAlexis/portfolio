@@ -173,7 +173,7 @@ section#projects .container .gallery .item {
 }
 
 .item .photo.filecast {
-    background-image: url('../assets/filecast-screenshot.png');
+    background-image: url('/assets/filecast-screenshot.png');
 }
 
 .gallery .item .details {
@@ -257,25 +257,25 @@ section#skills .container .gallery .card.purple {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.icon.frontend { background-image: url('../assets/code.svg'); }
+.icon.frontend { background-image: url('/assets/code.svg'); }
 
-.icon.backend { background-image: url('../assets/web.svg'); }
+.icon.backend { background-image: url('/assets/web.svg'); }
 
-.icon.design { background-image: url('../assets/palette.svg'); }
+.icon.design { background-image: url('/assets/palette.svg'); }
 
-.icon.practices { background-image: url('../assets/shield.svg'); }
+.icon.practices { background-image: url('/assets/shield.svg'); }
 
-.icon.database { background-image: url('../assets/stack.svg'); }
+.icon.database { background-image: url('/assets/stack.svg'); }
 
-.icon.devops { background-image: url('../assets/lightning-charge.svg'); }
+.icon.devops { background-image: url('/assets/lightning-charge.svg'); }
 
-.icon.email { background-image: url('../assets/email.svg'); }
+.icon.email { background-image: url('/assets/email.svg'); }
 
-.icon.github { background-image: url('../assets/github.svg'); }
+.icon.github { background-image: url('/assets/github.svg'); }
 
-.icon.linkedin { background-image: url('../assets/linkedin.svg'); }
+.icon.linkedin { background-image: url('/assets/linkedin.svg'); }
 
-.icon.instagram { background-image: url('../assets/instagram.svg'); }
+.icon.instagram { background-image: url('/assets/instagram.svg'); }
 
 /* Contact section */
 
